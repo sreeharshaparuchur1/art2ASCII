@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("./externals/audiR8.jpeg")
-#img = cv2.imread("./externals/Sebastian-Vettel.jpg")
-#img = cv2.imread("./externals/Golden-Gate-Bridge.png")
+img = cv2.imread("./audiR8.jpeg")
+#img = cv2.imread("./Sebastian-Vettel.jpg")
+#img = cv2.imread("./Golden-Gate-Bridge.png")
 img = cv2.resize(img, (150,150), interpolation = cv2.INTER_AREA)
 
 dimensions = img.shape
